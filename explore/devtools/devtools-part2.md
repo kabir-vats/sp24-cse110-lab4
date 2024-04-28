@@ -1,0 +1,2 @@
+1. The bug was caused by the fact that num1 and num2 were imported as strings and not casted to numbers. Using a + operator between two strings resulted in concatenation.
+2. I used parseInt to turn num1 and num2 into ints, allowing for addition to return the desired result of adding the two numbers. 
